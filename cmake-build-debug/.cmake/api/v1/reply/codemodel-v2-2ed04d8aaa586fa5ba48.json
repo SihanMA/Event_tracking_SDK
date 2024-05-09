@@ -1,0 +1,152 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "src",
+					"childIndexes" : 
+					[
+						2,
+						3
+					],
+					"jsonFile" : "directory-src-Debug-c94b7c2814d5a21df52c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"build" : "src/third_party/spdlog",
+					"jsonFile" : "directory-src.third_party.spdlog-Debug-3e2790a0f7ba929a8ff5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "src/third_party/spdlog",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "src/third_party/mbedtls/library",
+					"jsonFile" : "directory-src.third_party.mbedtls.library-Debug-408612b8083bc3740fb6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/third_party/mbedtls/library",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						3
+					],
+					"name" : "BuriedPoint",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "spdlog",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "Buried_shared::@145eef247bfb46b6828c",
+					"jsonFile" : "target-Buried_shared-Debug-20eae3bc0cf4e6303768.json",
+					"name" : "Buried_shared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Buried_static::@145eef247bfb46b6828c",
+					"jsonFile" : "target-Buried_static-Debug-fa462bdb4d60793e7d7f.json",
+					"name" : "Buried_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "mbedtls_static::@9eaee3c2fa4174eecbfb",
+					"jsonFile" : "target-mbedtls_static-Debug-72379d0bc29455b6bb65.json",
+					"name" : "mbedtls_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "spdlog::@b8ba8fd3614c7b0d0234",
+					"jsonFile" : "target-spdlog-Debug-236eb864e7490cb40591.json",
+					"name" : "spdlog",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Marshan/Code/CPP/Event_tracking_SDK/BuriedPoint/cmake-build-debug",
+		"source" : "D:/Marshan/Code/CPP/Event_tracking_SDK/BuriedPoint"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

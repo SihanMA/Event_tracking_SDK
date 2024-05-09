@@ -1,0 +1,35 @@
+"E:\App\CLion 2023.2.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=E:/App/CLion 2023.2.1/bin/ninja/win/x64/ninja.exe" -G Ninja -S D:\Marshan\Code\CPP\Event_tracking_SDK\BuriedPoint -B D:\Marshan\Code\CPP\Event_tracking_SDK\BuriedPoint\cmake-build-debug
+-- The C compiler identification is GNU 8.1.0
+-- The CXX compiler identification is GNU 8.1.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: D:/environment/MinGw/mingw64/bin/gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: D:/environment/MinGw/mingw64/bin/c++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- CMAKE_BUILD_TYPE=Debug
+-- CMAKE_SYSTEM_NAME=Windows
+-- Build spdlog: 1.12.0
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - not found
+-- Check if compiler accepts -pthread
+-- Check if compiler accepts -pthread - no
+-- Found Threads: TRUE  
+-- Build type: Debug
+-- libs winmm;iphlpapi;ws2_32;dbghelp;Kernel32
+-- Configuring done (26.3s)
+-- Generating done (0.3s)
+-- Build files have been written to: D:/Marshan/Code/CPP/Event_tracking_SDK/BuriedPoint/cmake-build-debug
+
+Problems were encountered while collecting compiler information:
+	gcc.exe: error: /std:c11: No such file or directory
+	c++.exe: error: /MP: No such file or directory
+	c++.exe: error: /std:c++20: No such file or directory

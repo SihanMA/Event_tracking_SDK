@@ -1,0 +1,12 @@
+D:/Marshan/Code/CPP/Event_tracking_SDK/BuriedPoint/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Marshan/Code/CPP/Event_tracking_SDK/BuriedPoint/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/Marshan/Code/CPP/Event_tracking_SDK/BuriedPoint/cmake-build-debug/src/CMakeFiles/Buried_static.dir
+D:/Marshan/Code/CPP/Event_tracking_SDK/BuriedPoint/cmake-build-debug/src/CMakeFiles/Buried_shared.dir
+D:/Marshan/Code/CPP/Event_tracking_SDK/BuriedPoint/cmake-build-debug/src/CMakeFiles/edit_cache.dir
+D:/Marshan/Code/CPP/Event_tracking_SDK/BuriedPoint/cmake-build-debug/src/CMakeFiles/rebuild_cache.dir
+D:/Marshan/Code/CPP/Event_tracking_SDK/BuriedPoint/cmake-build-debug/src/third_party/spdlog/CMakeFiles/spdlog.dir
+D:/Marshan/Code/CPP/Event_tracking_SDK/BuriedPoint/cmake-build-debug/src/third_party/spdlog/CMakeFiles/edit_cache.dir
+D:/Marshan/Code/CPP/Event_tracking_SDK/BuriedPoint/cmake-build-debug/src/third_party/spdlog/CMakeFiles/rebuild_cache.dir
+D:/Marshan/Code/CPP/Event_tracking_SDK/BuriedPoint/cmake-build-debug/src/third_party/mbedtls/library/CMakeFiles/mbedtls_static.dir
+D:/Marshan/Code/CPP/Event_tracking_SDK/BuriedPoint/cmake-build-debug/src/third_party/mbedtls/library/CMakeFiles/edit_cache.dir
+D:/Marshan/Code/CPP/Event_tracking_SDK/BuriedPoint/cmake-build-debug/src/third_party/mbedtls/library/CMakeFiles/rebuild_cache.dir

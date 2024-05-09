@@ -1,0 +1,329 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "src/libBuried_static.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"add_definitions",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"src/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 31,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 32,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 6,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 42,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 7,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 5,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 33,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 3,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " /std:c11 -g -fdiagnostics-color=always"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "BOOST_JSON_NO_LIB"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "DEBUG"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "SPDLOG_ACTIVE_LEVEL=SPDLOG_LEVEL_TRACE"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "SPDLOG_COMPILED_LIB"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "_WIN32_WINNT=0x0601"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 8,
+					"path" : "D:/Marshan/Code/CPP/Event_tracking_SDK/BuriedPoint/."
+				},
+				{
+					"backtrace" : 8,
+					"path" : "D:/Marshan/Code/CPP/Event_tracking_SDK/BuriedPoint/lib"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "D:/Marshan/Code/CPP/Event_tracking_SDK/BuriedPoint/cmake-build-debug"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "D:/Marshan/Code/CPP/Event_tracking_SDK/BuriedPoint/src/."
+				},
+				{
+					"backtrace" : 9,
+					"path" : "D:/Marshan/Code/CPP/Event_tracking_SDK/BuriedPoint/src/third_party"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "D:/Marshan/Code/CPP/Event_tracking_SDK/BuriedPoint/src/third_party/spdlog/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "D:/Marshan/Code/CPP/Event_tracking_SDK/BuriedPoint/src/third_party/boost"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "D:/Marshan/Code/CPP/Event_tracking_SDK/BuriedPoint/src/third_party/mbedtls/include"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " /MP /std:c++20 -g -fdiagnostics-color=always"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "BOOST_JSON_NO_LIB"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "DEBUG"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "SPDLOG_ACTIVE_LEVEL=SPDLOG_LEVEL_TRACE"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "SPDLOG_COMPILED_LIB"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "_WIN32_WINNT=0x0601"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 8,
+					"path" : "D:/Marshan/Code/CPP/Event_tracking_SDK/BuriedPoint/."
+				},
+				{
+					"backtrace" : 8,
+					"path" : "D:/Marshan/Code/CPP/Event_tracking_SDK/BuriedPoint/lib"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "D:/Marshan/Code/CPP/Event_tracking_SDK/BuriedPoint/cmake-build-debug"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "D:/Marshan/Code/CPP/Event_tracking_SDK/BuriedPoint/src/."
+				},
+				{
+					"backtrace" : 9,
+					"path" : "D:/Marshan/Code/CPP/Event_tracking_SDK/BuriedPoint/src/third_party"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "D:/Marshan/Code/CPP/Event_tracking_SDK/BuriedPoint/src/third_party/spdlog/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "D:/Marshan/Code/CPP/Event_tracking_SDK/BuriedPoint/src/third_party/boost"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "D:/Marshan/Code/CPP/Event_tracking_SDK/BuriedPoint/src/third_party/mbedtls/include"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "spdlog::@b8ba8fd3614c7b0d0234"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "mbedtls_static::@9eaee3c2fa4174eecbfb"
+		}
+	],
+	"id" : "Buried_static::@145eef247bfb46b6828c",
+	"name" : "Buried_static",
+	"nameOnDisk" : "libBuried_static.a",
+	"paths" : 
+	{
+		"build" : "src",
+		"source" : "src"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/third_party/sqlite/sqlite3.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/database/database.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/crypt/crypt.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/report/buried_report.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/report/http_report.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/common/common_service.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/context/context.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/buried.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/buried_core.cc",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}
