@@ -30,15 +30,19 @@ void Buried::InitLogger_() {
   logger_ = std::shared_ptr<spdlog::logger>(
       new spdlog::logger("buried_sink", {console_sink, file_sink}));
 
+  // 设置日志格式
   // ref: https://github.com/gabime/spdlog/wiki/3.-Custom-formatting
   logger_->set_pattern("[%c] [%s:%#] [%l] %v");
+  // 设置日志级别位trace级别，即最详细的日志级别
   logger_->set_level(spdlog::level::trace);
 }
 
 std::shared_ptr<spdlog::logger> Buried::Logger() { return logger_; }
 
 Buried::Buried(const std::string& work_dir) {
+    // 启动Context模块
   buried::Context::GetGlobalContext().Start();
+  // 设置工作模块和Logger对象
   InitWorkPath_(work_dir);
   InitLogger_();
 
@@ -57,6 +61,7 @@ BuriedResult Buried::Start(const Config& config) {
   common_service.app_name = config.app_name;
   common_service.custom_data = nlohmann::json::parse(config.custom_data);
 
+  // 创建BuriedReport对象，调用Start的方法，启动埋点上报功能
   buried_report_ = std::make_unique<buried::BuriedReport>(
       logger_, std::move(common_service), work_path_.string());
   buried_report_->Start();
@@ -69,6 +74,7 @@ BuriedResult Buried::Report(std::string title, std::string data,
   buried_data.title = std::move(title);
   buried_data.data = std::move(data);
   buried_data.priority = priority;
+  // 将BuriedData对象传递给创建BuriedReport对象，实现埋点上报功能
   buried_report_->InsertData(buried_data);
   return BuriedResult::kBuriedOk;
 }

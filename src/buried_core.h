@@ -39,6 +39,7 @@ struct Buried {
   BuriedResult Report(std::string title, std::string data, uint32_t priority);
 
  public:
+    // 提供对外地Logger接口，用于获取此对象内部的Logger实例
   std::shared_ptr<spdlog::logger> Logger();
 
  private:
